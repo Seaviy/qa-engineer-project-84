@@ -8,9 +8,22 @@
     https://hexlet-products-store.vercel.app/
   steps:
     - Находим поисковую строку
-    - Вводим Powder Canister
+    - Вводим Powder
   expected-result: |
-    В списке товаров должна остаться только Powder Canister
+    В списке товаров должна остаться только товары с "Powder" в названии
+---
+- summary: |
+    Проверка работоспособности категорий
+  requirement: |
+    Пользователь должен иметь возможность искать товары по ключевому слову или категории
+  prerequisites: |
+    Открыта главная страница сайта
+    https://hexlet-products-store.vercel.app/
+  steps:
+    - Находим выпадающий список категорий
+    - Выбираем furniture
+  expected-result: |
+    В списке товаров должна остаться только мебель
 ---
 - summary: |
     Проверка работоспособности фильтров
