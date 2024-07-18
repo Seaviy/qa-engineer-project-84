@@ -7,7 +7,6 @@
   steps-to-reproduce: |
     1. Зайти на главную магазина https://hexlet-products-store.vercel.app/
     2. Ввести в поисковой строке "Red"
-    3. Ввести почту и нажать "Восстановить пароль"
   expected-result: |
     На странице отобралятся все товары с "Red" в названии
   actual-result: |
