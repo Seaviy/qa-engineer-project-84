@@ -1,6 +1,6 @@
 - summary: |
     Проверка работоспособности поисковой строки
-  status: pass
+  status: fail
   requirement: |
     Пользователь должен иметь возможность искать товары по ключевому слову или категории
   prerequisites: |
@@ -8,11 +8,25 @@
     https://hexlet-products-store.vercel.app/
   steps:
     - Находим поисковую строку
-    - Вводим Powder Canister
+    - Вводим "Red"
   expected-result: |
-    В списке товаров должна остаться только Powder Canister
+    Должны быть отображены все товары с "red" в названии
 ---
 - summary: |
+    Проверка работоспособности категорий
+  status: fail
+  requirement: |
+    Пользователь должен иметь возможность искать товары по ключевому слову или категории
+  prerequisites: |
+    Открыта главная страница сайта
+    https://hexlet-products-store.vercel.app/
+  steps:
+    - Находим выпадающий список категорий
+    - Открываем выпадающий список
+  expected-result: |
+    В списке должны отобразиться все категории товаров
+---
+  - summary: |
     Проверка работоспособности фильтров
   status: pass
   requirement: |
@@ -25,7 +39,7 @@
     - отмечаем флажок Annibale Colombo
   expected-result: |
     В списке товаров должна остаться только мебель Annibale Colombo
-  ---
+---
 - summary: |
     Проверка работоспособности карточек товаров
   status: pass
