@@ -562,3 +562,45 @@
     - Вводим "<"
   expected-result: |
     Данные не должны обработаться формой
+
+- summary: |
+    Проверка работы сайта на Google Chrome последней версии
+  requirement: |
+    Пользователь должен иметь возможность добавлять товары в корзину и делать заказ
+  prerequisites: |
+    Установлен Google Chrome последней версии
+  test-data: |
+    Тестовые данные
+  steps:
+    - Запускаем Google Chrome
+    - заходим на главную сайта https://hexlet-products-store.vercel.app/
+  expected-result: |
+    Сайт выглядит в соотвествии с макетом
+
+- summary: |
+    Проверка работы сайта на Firefox последней версии
+  requirement: |
+    Пользователь должен иметь возможность добавлять товары в корзину и делать заказ
+  prerequisites: |
+    Установлен Firefox последней версии
+  test-data: |
+    Тестовые данные
+  steps:
+    - Запускаем Firefox
+    - заходим на главную сайта https://hexlet-products-store.vercel.app/
+  expected-result: |
+    Сайт выглядит в соотвествии с макетом
+
+- summary: |
+    Проверка работы сайта на Edge последней версии
+  requirement: |
+    Пользователь должен иметь возможность добавлять товары в корзину и делать заказ
+  prerequisites: |
+    Установлен Edge последней версии
+  test-data: |
+    Тестовые данные
+  steps:
+    - Запускаем Edge
+    - заходим на главную сайта https://hexlet-products-store.vercel.app/
+  expected-result: |
+    Сайт выглядит в соотвествии с макетом
