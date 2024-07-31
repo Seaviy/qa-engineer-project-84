@@ -143,7 +143,7 @@
     Проверка работы сайта на Edge последней версии
   status: pass
 
- bugreports:
+  bugreports:
 - summary: |
     Фильтры по производителю сбивают результаты поиска
   environment: |
