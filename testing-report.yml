@@ -148,14 +148,14 @@
   status: pass
 
 - summary: |
-    Пров
+    Проверка оформления заказа Google Chrome последней версии
   status: pass
 
 - summary: |
-    Пров
+    Проверка работы сайта на Firefox последней версии
   status: pass
 
 - summary: |
-    Пров
+    Проверка работы сайта на Edge последней версии
   status: pass
 
