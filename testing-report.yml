@@ -56,24 +56,12 @@
   status: pass
 
 - summary: |
-    Пров
-  status: pass
-
-- summary: |
     Проверка английской версии сайта
   status: pass
 
 - summary: |
     Проверка русской версии сайта
   status: fail
-
-- summary: |
-    Пров
-  status: pass
-
-- summary: |
-    Пров
-  status: pass
 
 - summary: |
     Проверка кнопки смены языка
